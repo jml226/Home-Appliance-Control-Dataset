@@ -10,15 +10,15 @@ The BCI experiments for controlling door locks (DL) and electric lights (EL) pre
 The stimuli were presented in the form of icons representing control functions in the four experiments (DL, EL, BS and AC). All the stimuli were displayed in blue. Then, during the stimulus flickering period, each stimulus flickered in a random order by briefly changing its color to light green for 0.625 seconds. The inter-stimulus interval was 0.125 second. Each stimulus flickered 10 times in the stimulus flickering period (McFarland et al., 2011). The home appliances to be controlled were displayed in the background of the screen in the DL, El and AC experiments, while no display of the device was provided in the BS experiment (Figure).
 
 The data acquired from the experiments had a hierarchical structure, comprising three levels. A summary of the dataset information is provided in Table 1. First Level: Home Appliance Type. The first level categorized the data based on the type of home appliance being controlled through the BCI. Second Level: Subject. Within each home appliance category, the data was further divided based on the subject. Each subject was anonymized and identified only by a unique ID. Third Level: Block-Specific Data. The third level contained the granular, block-based data for each subject. The data files were named following a specific convention for easy identification: SubX_training refers to the training data for subject X, and SubX_test_tr_Y refers to the test data for the Y-th block of subject X. Each data file at the third level was composed of two main components:
-	Data.signal: it contains EEG signals in a matrix format, with dimensions;
-[channel x time (points)].
-	Data.trigger: it contains the event trigger data in a row vector format, with dimensions; 
-[1 x time (points)].
+
+-Data.signal: it contains EEG signals in a matrix format, with dimensions; [channel x time (points)].
+-Data.trigger: it contains the event trigger data in a row vector format, with dimensions; [1 x time (points)].
+
 The trigger types are coded as follows:
-	11: Block start
-	12: Stimulation start
-	13: Block end
-	1 to 6: Types of stimuli
-	Between 11 and 12: Indicates the target stimulus.
+-11: Block start
+-12: Stimulation start
+-13: Block end
+-1 to 6: Types of stimuli
+-Between 11 and 12: Indicates the target stimulus.
 
 
