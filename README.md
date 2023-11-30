@@ -1,6 +1,8 @@
 # Home-Appliance-Control-Dataset
 A Comprehensive Dataset for Home Appliance Control using ERP-Based BCIs
 
+A total of 84 healthy volunteers participated, each involved in only one experiment, ensuring no overlap of subjects between experiments. The demographic information of subjects is listed in Table S1. The distribution of subjects across five different online BCI experiments was as follows: 30 subjects were recruited for the TV control experiment, 15 in the door lock (DL) control, and another 15 in the electric light (EL) control. Additionally, 14 subjects participated in the bluetooth speaker (BS) control experiment, while 10 were involved in the air conditioner (AC) control experiment.
+
 ![figure2](https://github.com/jml226/Home-Appliance-Control-Dataset/assets/128969655/4d415a6a-180f-40a8-a8cb-c0936b5506d1)
 
  All the BCI experiments for home appliance control shared an identical experimental procedure. The experiments consisted of a series of blocks of the oddball task (Figure A). A single block began with 0.5-second fixation where a white cross appeared at the center of the screen. The preview of stimuli followed for 1 second which allowed subjects to perceive all the stimuli. Then, a target stimulus was instructed by changing the color of the border of the target stimulus to red for 1 second. Each stimulus flickered in a random order, which took 5 seconds total. Afterward, the feedback of BCI control was shown for 1 second, and subjects rested for 2 seconds until the next block. During the training phase, 50 blocks were repeated, while in the testing phase, 30 blocks were repeated. Specific paradigms for each home appliance are described below (see also Figures B to F.)
