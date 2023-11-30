@@ -1,5 +1,5 @@
 # Home-Appliance-Control-Dataset
-A Comprehensive Dataset for Home Appliance Control using ERP-Based BCIs with the Application of Inter-Subject Transfer Learning
+A Comprehensive Dataset for Home Appliance Control using ERP-Based BCIs
 
 ![figure2](https://github.com/jml226/Home-Appliance-Control-Dataset/assets/128969655/4d415a6a-180f-40a8-a8cb-c0936b5506d1)
 
