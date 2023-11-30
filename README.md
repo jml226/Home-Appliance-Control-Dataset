@@ -11,8 +11,8 @@ The stimuli were presented in the form of icons representing control functions i
 
  The data acquired from the experiments had a hierarchical structure, comprising three levels. A summary of the dataset information is provided in Table 1. First Level: Home Appliance Type. The first level categorized the data based on the type of home appliance being controlled through the BCI. Second Level: Subject. Within each home appliance category, the data was further divided based on the subject. Each subject was anonymized and identified only by a unique ID. Third Level: Block-Specific Data. The third level contained the granular, block-based data for each subject. The data files were named following a specific convention for easy identification: SubX_training refers to the training data for subject X, and SubX_test_tr_Y refers to the test data for the Y-th block of subject X. Each data file at the third level was composed of two main components:
 
-**-Data.signal: it contains EEG signals in a matrix format, with dimensions; [channel x time (points)].
-**-Data.trigger: it contains the event trigger data in a row vector format, with dimensions; [1 x time (points)].
+-Data.signal: it contains EEG signals in a matrix format, with dimensions; [channel x time (points)].
+-Data.trigger: it contains the event trigger data in a row vector format, with dimensions; [1 x time (points)].
 
 The trigger types are coded as follows:
 
